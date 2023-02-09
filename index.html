@@ -11,7 +11,7 @@
 <body>
     <!-- MAIN -->
     <main>
-        <div class="wrapper">
+        <div class="wrapper flex">
             <div class="col">
                 <div class="card">
                     <div class="card-img">
@@ -300,15 +300,24 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="footer-container">
+        <div class="footer-container flex">
             <div class="left">
-                <ul class="mute-video">
-                    <li>mute</li>
-                    <li>video</li>
+                <ul class="mute-video flex">
+                    <li>
+                        <div class="text-align-center"><i class="fa-solid fa-microphone"></i></div>
+                        <div class="mute">Mute</div>
+                    </li>
+                    <li class="angle-up flex align-items-center"><i class="fa-solid fa-angle-up"></i></li>
+
+                    <li>
+                        <div class="text-align-center"><i class="fa-solid fa-video"></i></div>
+                        <div class="mute">Stop Video</div>
+                    </li>
+                    <li class="angle-up flex align-items-center"><i class="fa-solid fa-angle-up"></i></li>
                 </ul>
             </div>
-            <div class="center">
-                <ul class="user-actions">
+            <div class="center flex">
+                <ul class="user-actions flex">
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
