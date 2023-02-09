@@ -4,3 +4,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+/* MAIN */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    /* debug */
+    background-color: aqua;
+}
+
+.col {
+    width: calc(100% / 7);
+}
+
+.card {
+    padding: 5px;
+}
+.card-img {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
